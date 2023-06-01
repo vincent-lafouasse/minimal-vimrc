@@ -1,24 +1,21 @@
-set number
-set relativenumber
-set noerrorbells
-set smartindent
-set expandtab
-set noswapfile
-
-set wrap
-
-set backspace=indent,eol,start
 colo default
 syntax on
-set ts=4
-set sts=4
+
+set number
+set relativenumber
+set smartindent
+set mouse=a
+set backspace=indent,eol,start
+
+set wrap
+set noerrorbells
+set noswapfile
+
+set tabstop=4
+set shiftwidth=4
 set sw=0
-:set mouse=a
-
 set noshowmode
-
 set laststatus=2
-
 set incsearch
 
 set colorcolumn=80
