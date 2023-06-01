@@ -3,17 +3,16 @@ syntax on
 
 set number
 set relativenumber
-set smartindent
 set mouse=a
 set backspace=indent,eol,start
+set tabstop=4
+set shiftwidth=4
+set smartindent
+set smarttab
 
 set wrap
 set noerrorbells
 set noswapfile
-
-set tabstop=4
-set shiftwidth=4
-set sw=0
 set noshowmode
 set laststatus=2
 set incsearch
