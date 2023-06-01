@@ -2,9 +2,11 @@ colo default
 syntax on
 
 set number
-set relativenumber
+set relativenumber " relativenumber pas oblige mais j'aime bien
 set mouse=a
 set backspace=indent,eol,start
+
+set noexpandtab
 set tabstop=4
 set shiftwidth=4
 set smartindent
