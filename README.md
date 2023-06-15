@@ -25,9 +25,10 @@ set background=dark
 ```
 
 - install vim-plug by running the command:
-    - more info at [the vim-plug repo](https://github.com/junegunn/vim-plug) and at the [vim-plug tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
+    - 
 ```sh 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 ```
+    - more info at [the vim-plug repo](https://github.com/junegunn/vim-plug) and at the [vim-plug tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
 
 - open a new vim and run `:PlugInstall` (in vim)
