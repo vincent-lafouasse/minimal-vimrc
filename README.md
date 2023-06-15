@@ -25,6 +25,8 @@ colorscheme catppuccin_mocha
 set background=dark
 ```
 
-- install vim-plug [https://github.com/junegunn/vim-plug] [https://github.com/junegunn/vim-plug/wiki/tutorial]
+- install vim-plug by running the command:
+    - `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+    - more info at [https://github.com/junegunn/vim-plug] [https://github.com/junegunn/vim-plug/wiki/tutorial]
 
 - run `:PlugInstall` in vim
