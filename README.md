@@ -8,7 +8,7 @@ put the `.vimrc` file in your `$HOME`
 
 ## Plugins 
 
-- add this to the vimrc
+1. add this to the vimrc
 ```vim
 call plug#begin('$HOME/.vim/plugged')
 
@@ -24,11 +24,12 @@ colorscheme catppuccin_mocha
 set background=dark
 ```
 
-- install vim-plug by running the command:
-    - 
+2. install vim-plug by running the command:
 ```sh 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-    - more info at [the vim-plug repo](https://github.com/junegunn/vim-plug) and at the [vim-plug tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
 
-- open a new vim and run `:PlugInstall` (in vim)
+3. open a new vim and run `:PlugInstall` (in vim)
+
+- more info at [the vim-plug repo](https://github.com/junegunn/vim-plug) and at the [vim-plug tutorial](https://github.com/junegunn/vim-plug/wiki/tutorial)
